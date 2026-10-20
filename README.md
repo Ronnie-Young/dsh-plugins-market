@@ -4,19 +4,19 @@ Ronnie-Young 的个人 **DeepSeek Harness 插件市场索引**，用 DSH 的 for
 
 ## 索引地址
 
-在 DSH 里添加这个 URL 即可浏览和安装本仓库收录的插件（**推荐 jsDelivr**，国内可访问）：
-
-```text
-https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
-```
-
-备用地址（GitHub Pages）：
+在 DSH 里添加这个 URL 即可浏览和安装本仓库收录的插件（**推荐 GitHub Pages**，直读仓库、没有 CDN 缓存延迟）：
 
 ```text
 https://ronnie-young.github.io/dsh-plugins-market/index.json
 ```
 
-> `raw.githubusercontent.com` 在部分网络会连接超时，不建议作为主地址。
+备用地址（jsDelivr，`@main` 有缓存，更新后可能滞后）：
+
+```text
+https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
+```
+
+> `raw.githubusercontent.com` 在部分网络会连接超时，不建议使用。
 
 ## 在 DSH 里使用
 

@@ -1,0 +1,13 @@
+{
+  "name": "dsh-plugins-market",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal DeepSeek Harness plugin market index",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "^0.2.1-alpha.4"
+  }
+}

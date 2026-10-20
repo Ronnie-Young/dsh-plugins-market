@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Ronnie's DSH Plugins",
+    "zh": "Ronnie 的 DSH 插件"
+  },
+  "description": {
+    "en": "Personal DeepSeek Harness plugin market: indexes maintained by Ronnie-Young.",
+    "zh": "个人维护的 DeepSeek Harness 插件市场：收录 Ronnie-Young 开发的插件。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-scnet-plan",
+      "title": {
+        "en": "SCNet Token Plan",
+        "zh": "SCNet 套餐"
+      },
+      "description": {
+        "en": "Sidebar panel with remaining Credits, daily heatmap and token breakdown; sign in with an SMS code or account password.",
+        "zh": "侧栏面板显示 Credits 余量、每日热力图与 token 构成；支持短信验证码或账号密码登录。"
+      },
+      "author": "Ronnie-Young",
+      "homepage": "https://github.com/Ronnie-Young/dsh-scnet-plan#readme",
+      "repository": {
+        "url": "https://github.com/Ronnie-Young/dsh-scnet-plan"
+      },
+      "metadata": {
+        "keywords": [
+          "scnet",
+          "token-plan",
+          "credits",
+          "quota",
+          "usage"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.0.1",
+          "publishTimestamp": 1792489278,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ronnie-Young/dsh-scnet-plan",
+            "commit": "59f84efbf579c30d325d13f81e79eae59692a618"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

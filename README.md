@@ -30,7 +30,7 @@ https://ronnie-young.github.io/dsh-plugins-market/index.json
 
 | 插件 | 版本 | 说明 |
 | --- | --- | --- |
-| `dsh-scnet-plan` | 0.0.1 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
+| `dsh-scnet-plan` | 0.0.2 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
 
 ## 添加或更新插件
 

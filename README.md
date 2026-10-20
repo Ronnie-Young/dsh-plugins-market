@@ -4,17 +4,19 @@ Ronnie-Young 的个人 **DeepSeek Harness 插件市场索引**，用 DSH 的 for
 
 ## 索引地址
 
-在 DSH 里添加这个 URL 即可浏览和安装本仓库收录的插件：
-
-```text
-https://raw.githubusercontent.com/Ronnie-Young/dsh-plugins-market/main/index.json
-```
-
-如果 raw.githubusercontent.com 访问不稳定，可以换 jsDelivr：
+在 DSH 里添加这个 URL 即可浏览和安装本仓库收录的插件（**推荐 jsDelivr**，国内可访问）：
 
 ```text
 https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
 ```
+
+备用地址（GitHub Pages）：
+
+```text
+https://ronnie-young.github.io/dsh-plugins-market/index.json
+```
+
+> `raw.githubusercontent.com` 在部分网络会连接超时，不建议作为主地址。
 
 ## 在 DSH 里使用
 
@@ -31,6 +33,9 @@ https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
 | `dsh-scnet-plan` | 0.0.1 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
 
 ## 添加或更新插件
+
+> 改了 `index.json` 后，jsDelivr 的 `@main` 缓存可能滞后，可访问下面地址手动刷新：
+> `https://purge.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json`
 
 编辑 `index.json`：
 

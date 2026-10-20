@@ -32,29 +32,6 @@ https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
 | --- | --- | --- |
 | `dsh-scnet-plan` | 0.0.2 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
 
-## 添加或更新插件
-
-> 改了 `index.json` 后，jsDelivr 的 `@main` 缓存可能滞后，可访问下面地址手动刷新：
-> `https://purge.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json`
-
-编辑 `index.json`：
-
-- 每个插件一个 `plugins[]` 条目，`name` 必须是 npm 包名；
-- `versions[]` 里写 `version`、`publishTimestamp`（Unix 秒）、`source`；
-- `source` 支持两种：
-  - `{"type":"git","url":"https://github.com/...","commit":"40位完整SHA"}`（当前使用，无需 npm 发布）
-  - `{"type":"npm"}`（发布到 npm 后更简单）
-- `engines.dsh` 写兼容的 DSH 版本范围。
-
-改完在本地校验：
-
-```bash
-npm install
-npm run validate
-```
-
-推送到 `main` 后 GitHub Actions 会自动跑同一个校验。
-
 ## License
 
 MIT © Ronnie-Young

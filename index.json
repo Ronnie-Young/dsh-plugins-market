@@ -40,7 +40,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/Ronnie-Young/dsh-scnet-plan",
-            "commit": "6c65d910df60977a02da75812001160b9dd3f456"
+            "commit": "9cb2941814a2fc46c45bd5618c7d0a3e9c754d4a"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2"

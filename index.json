@@ -35,6 +35,18 @@
       },
       "versions": [
         {
+          "version": "0.0.3",
+          "publishTimestamp": 1792553888,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ronnie-Young/dsh-scnet-plan",
+            "commit": "78ccf4708aa5037195c26f3c1aab8f0fcdaf9ce3"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        },
+        {
           "version": "0.0.2",
           "publishTimestamp": 1792496303,
           "source": {

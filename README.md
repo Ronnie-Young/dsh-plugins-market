@@ -1,6 +1,7 @@
 # dsh-plugins-market
 
-Ronnie-Young 的个人 **DeepSeek Harness 插件市场索引**，用 DSH 的 format 1 索引格式维护自己开发的插件。
+Ronnie-Young 的个人 **DeepSeek Harness 插件市场索引**，用 DSH 的 format 1 索引格式维护自己开发的插件
+（`dsh-session-team` 项目团队、`dsh-scnet-plan` SCNet 套餐）。
 
 ## 索引地址
 
@@ -30,6 +31,7 @@ https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
 
 | 插件 | 版本 | 说明 |
 | --- | --- | --- |
+| `dsh-session-team` | 0.0.1 | [项目团队](https://github.com/Ronnie-Young/dsh-session-team)：按项目把多个 session 组织成 agent 团队，一个 Lead 派活、按阶段收汇报，支持从零建队与中断恢复 |
 | `dsh-scnet-plan` | 0.0.2 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
 
 ## License

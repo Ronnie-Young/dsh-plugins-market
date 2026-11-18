@@ -10,6 +10,44 @@
   },
   "plugins": [
     {
+      "name": "dsh-session-team",
+      "title": {
+        "en": "Project teams",
+        "zh": "项目团队"
+      },
+      "description": {
+        "en": "Organize sessions into per-project agent teams: one Lead, dispatched tasks, staged reports, team creation from scratch and interrupted-task recovery.",
+        "zh": "按项目把多个会话组织成 agent 团队：一个 Lead 派活、按阶段收汇报，支持从零建队与中断恢复。"
+      },
+      "author": "Ronnie-Young",
+      "homepage": "https://github.com/Ronnie-Young/dsh-session-team#readme",
+      "repository": {
+        "url": "https://github.com/Ronnie-Young/dsh-session-team"
+      },
+      "metadata": {
+        "keywords": [
+          "session",
+          "agent-team",
+          "multi-agent",
+          "orchestration"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.0.1",
+          "publishTimestamp": 1795015648,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ronnie-Young/dsh-session-team",
+            "commit": "179c644d1507855dca4e5e7e6e88378e1040faa8"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        }
+      ]
+    },
+    {
       "name": "dsh-scnet-plan",
       "title": {
         "en": "SCNet Token Plan",

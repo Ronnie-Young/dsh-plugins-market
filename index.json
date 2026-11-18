@@ -39,7 +39,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/Ronnie-Young/dsh-session-team",
-            "commit": "ec1e9062a8077bcde738adea04e1e00fe592deea"
+            "commit": "011d79db10f075f669fd62876f8c3aa77b395ba3"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3"

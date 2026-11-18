@@ -29,10 +29,13 @@ https://cdn.jsdelivr.net/gh/Ronnie-Young/dsh-plugins-market@main/index.json
 
 ## 收录插件
 
-| 插件 | 版本 | 说明 |
-| --- | --- | --- |
-| `dsh-session-team` | 0.0.2 | [项目团队](https://github.com/Ronnie-Young/dsh-session-team)：按项目把多个 session 组织成 agent 团队，一个 Lead 派活、按阶段收汇报，支持从零建队与中断恢复 |
-| `dsh-scnet-plan` | 0.0.2 | [SCNet 套餐](https://github.com/Ronnie-Young/dsh-scnet-plan)：侧栏显示 Credits 余量、每日热力图与 token 构成 |
+| 插件 | 说明 |
+| --- | --- |
+| [`dsh-session-team`](https://github.com/Ronnie-Young/dsh-session-team) | 项目团队：按项目把多个 session 组织成 agent 团队，一个 Lead 派活、按阶段收汇报，支持从零建队与中断恢复 |
+| [`dsh-scnet-plan`](https://github.com/Ronnie-Young/dsh-scnet-plan) | SCNet 套餐：侧栏显示 Credits 余量、每日热力图与 token 构成，支持短信/密码登录 |
+
+> 具体版本以 `index.json` 为准：它由 GitHub Actions 在插件发 Release 后自动同步（含版本号与提交），
+> 这里的表格不再手写版本号，避免和索引不一致。
 
 ## License
 

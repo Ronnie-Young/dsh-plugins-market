@@ -34,6 +34,18 @@
       },
       "versions": [
         {
+          "version": "0.1.1",
+          "publishTimestamp": 1795064348,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ronnie-Young/dsh-session-team",
+            "commit": "e12cb86b7eb2bc562c6d49811ec5f39d7e414a93"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        },
+        {
           "version": "0.1.0",
           "publishTimestamp": 1795057470,
           "source": {

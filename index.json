@@ -205,6 +205,44 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-session-delete",
+      "title": {
+        "en": "Session trash",
+        "zh": "会话回收站"
+      },
+      "description": {
+        "en": "Adds Move to trash to the sidebar session menu: deleted sessions stay in the trash for a configurable retention period (14 days by default) and can be restored from the sidebar Trash entry; expired entries are purged or locked per configuration, and sessions can also be permanently deleted by hand.",
+        "zh": "在侧栏会话菜单里增加「移到回收站」：删除的会话先放进回收站保留若干天（默认 14 天，可配置），期间可在侧栏「回收站」入口里恢复；到期按配置自动永久删除或锁定，也可以手动永久删除。"
+      },
+      "author": "Ronnie-Young",
+      "homepage": "https://github.com/Ronnie-Young/dsh-session-delete#readme",
+      "repository": {
+        "url": "https://github.com/Ronnie-Young/dsh-session-delete"
+      },
+      "metadata": {
+        "keywords": [
+          "session",
+          "trash",
+          "recycle-bin",
+          "delete-session"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.0.1",
+          "publishTimestamp": 1795247223,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Ronnie-Young/dsh-session-delete",
+            "commit": "1508d975ba66d2541efc99d414f6b8a5e0d7f1fc"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
     }
   ]
 }
